@@ -1,5 +1,5 @@
 {//创建数组存放背景url
-var bgs = new Array('url("images/6.png")');
+var bgs = new Array('url("images/6.png")','url("images/7.png")','url("images/8.png")');
 }
 
 //设置导航栏图标的点击时间
@@ -28,6 +28,8 @@ items.forEach((item)=>{
     item.addEventListener("click",setActive);
 })
 
+
+
 function myTime(){ 
    
     let time=new Date();
@@ -42,5 +44,5 @@ function myTime(){
     document.getElementById("7").innerText=Math.floor(ss/10);
     document.getElementById("8").innerText=ss%10;
 }
-// 一秒执行一次
+
 setInterval(myTime,1000);

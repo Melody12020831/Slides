@@ -50,14 +50,15 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <title>My Slides</title>
     <meta charset="UTF-8">
     <meta name="Designer" content="Melody">
     <meta name="Description" content="HomePage">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <title>HomePage</title>
+    <link rel="shortcut icon" href="coclass/favicon.ico" />
 </head>
-<body id="bgid" onload="changeBg()"></body>
+<body id="bgid" onload="changeBg()">
 <header>
     <div class="tabbar">
      <ul>
@@ -77,32 +78,8 @@
               <span class="text">background</span>
            </a>
         </li>
-        <li class="item">
-           <a onclick="addFocus()">
-                       <span class="icon">
-                           <i class="fas fa-plus-circle" aria-hidden="true"></i>
-                       </span>
-              <span class="text">note</span>
-           </a>
-        </li>
-        <li class="item">
-           <a onclick="ballBtn()">
-    
-                       <span class="icon">
-                           <i class="fas fa-bell" aria-hidden="true"></i>
-                       </span>
-              <span class="text">ball</span>
-           </a>
-        </li>
-        <li class="item">
-           <a href="#">
-                       <span class="icon">
-                           <i class="fas fa-user" aria-hidden="true"></i>
-                       </span>
-              <span class="text">about</span>
-           </a>
-        </li>
      </ul>
+        <div class="active-bg"></div>
     </div>
     <div class="img">
         <div class="clock">
@@ -117,12 +94,11 @@
         </div>
     </div>
 </header>
-
-<script src="js/index.js"></script>
-    <h1>Welcome to My Slides</h1>
-    <p>先咕咕吧，等我有空再来完善，现在尚且处于一个不堪入目的状态...</p>
+<div class="container">
     <ul>
-        <li><a href="coclass/">coclass</a></li>
+        <li><a href="coclass/"><img src="images/9.png" alt="">coclass</a></li>
     </ul>
+</div>
+<script src="js/index.js"></script>
 </body>
 </html>

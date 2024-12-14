@@ -5,6 +5,14 @@
     padding: 0;
 }
 
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&family=Source+Code+Pro&family=JetBrains+Mono:ital,wght@0,300;0,400;0,600;0,700;1,400;1,700);
+@import url(https://gcore.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css);
+
+:root {
+    --r-main-font: "LXGW WenKai Screen", "JetBrains Mono", sans-serif;
+    --r-heading-font:  "LXGW WenKai Screen", "JetBrains Mono", sans-serif;
+    --r-code-font: "LXGW WenKai Screen", "JetBrains Mono", sans-serif;
+  }
 
 html, body { 
    
@@ -91,6 +99,33 @@ body{
    
     /* 选中,文字显示 */
     transform: scale(1);
+}
+
+.active-bg{ 
+   
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    /* --c,--cc为CSS中的自定义属性,通过var函数可对其调用 */
+    background-color: var(--c);
+    box-shadow: 0 10px 15px var(--cc);
+    transition: 0.5s;
+}
+/* 分别为每一个.active-bg设置颜色,阴影,位移 */
+.tabbar ul li:nth-child(1).active ~ .active-bg{ 
+   
+    --c:#2ed573;
+    --cc:#2ed57399;
+    left: 0;
+}
+.tabbar ul li:nth-child(2).active ~ .active-bg{ 
+   
+    --c:#1e90ff;
+    --cc:#1e90ff99;
+    left: calc(1 * 70px);
 }
 
 .img .clock{ 
