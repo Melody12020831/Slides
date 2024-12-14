@@ -134,7 +134,7 @@ body{
     width:60px;
     height:60px;
     position: absolute;
-    top:20%;
+    top:15%;
     left:45%;
     margin-top:-30px ;
     margin-left:-30px ;
@@ -151,7 +151,7 @@ body{
     color: #fff;
     text-align: center;
     /* 设置字体 */
-    font-family: "Kanit";
+    font-family: "LXGW WenKai Screen";
     font-weight: 900;
     /* 文字阴影 实现3D效果 */
     text-shadow: 0 1px 0 #deafaf,
@@ -178,7 +178,7 @@ li{
    
     width: 1080px;
     margin: 0 auto;
-    margin-top:40px;
+    margin-top:50px;
 
 }
 .container ul { 
