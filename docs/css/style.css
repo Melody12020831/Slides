@@ -9,6 +9,7 @@
 @import url(https://gcore.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css);
 
 :root {
+    font-family: "LXGW WenKai Screen", "JetBrains Mono", sans-serif;
     --r-main-font: "LXGW WenKai Screen", "JetBrains Mono", sans-serif;
     --r-heading-font:  "LXGW WenKai Screen", "JetBrains Mono", sans-serif;
     --r-code-font: "LXGW WenKai Screen", "JetBrains Mono", sans-serif;
@@ -133,7 +134,7 @@ body{
     width:60px;
     height:60px;
     position: absolute;
-    top:50%;
+    top:20%;
     left:45%;
     margin-top:-30px ;
     margin-left:-30px ;
