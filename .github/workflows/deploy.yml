@@ -10,7 +10,7 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@v3
     
     - name: Push update file to slides repo
       uses: dmnemec/copy_file_to_another_repo_action@3fe42250d47e0764da9de9939b151b09a26e5857
@@ -18,8 +18,8 @@ jobs:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
         source_file: 'slides/site/.'
-        destination_repo: 'melody12020831/Slides'
-        destination_branch: 'master'
-        destination_folder: 'RevealmdTemplate'
+        destination_repo: 'Melody12020831/Slides'
+        destination_branch: 'main'
+        destination_folder: 'docs'
         user_email: 'melody12020831@outlook.com'
         user_name: 'Melody'
