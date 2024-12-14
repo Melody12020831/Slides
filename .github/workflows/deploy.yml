@@ -17,8 +17,8 @@ jobs:
       env:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
-        source_file: 'slide/site/.'
-        destination_repo: 'TonyCrane/slides'
+        source_file: 'slides/site/.'
+        destination_repo: 'melody12020831/Slides'
         destination_branch: 'master'
         destination_folder: 'RevealmdTemplate'
         user_email: 'melody12020831@outlook.com'
