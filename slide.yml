@@ -1,8 +1,0 @@
----
-css: 
-  - slides/site/assets/custom.css # 自定义 CSS
-  - slides/site/css/highlight/github.css  
-  - dist/my-plugin.css       # 插件样式
-scripts: 
-  - slides/site/assets/heti_worker.js        # 插件 JavaScript
----
