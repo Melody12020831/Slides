@@ -30,8 +30,15 @@ body{
     background-size:cover;
     /*1s完成更换背景图片效果*/
     transition:background-image 1s;
-    font-family: Sans-serif;
 }
+
+a:link,
+a:visited,
+a:hover
+a:active {
+    color:#681ebdce;
+    text-decoration:underline;
+    }
 
 /*导航栏样式*/
 .tabbar{ 
@@ -134,7 +141,7 @@ body{
     width:60px;
     height:60px;
     position: absolute;
-    top:15%;
+    top:10%;
     left:45%;
     margin-top:-30px ;
     margin-left:-30px ;
@@ -178,7 +185,7 @@ li{
    
     width: 1080px;
     margin: 0 auto;
-    margin-top:50px;
+    margin-top:80px;
 
 }
 .container ul { 
